@@ -1,0 +1,13 @@
+[
+"2405722",
+"What is this bird called?",
+[],
+"05515938",
+"parrot",
+"This is a parrot.",
+["select","(","bird",")",";","query_n","(","[0]",")"],
+{"answer": {"0": 0},"question": {"3": 0},"fullAnswer": {"3": 0}},
+[[0],[0]],
+[["select","(","bird",")"],["query_n","(","[0]",")"]],
+{"detailed": "categoryThis","semantic": "cat","structural": "query"}
+]
