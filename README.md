@@ -14,9 +14,9 @@ or using positional features and bidirectional
 edges in GNN. Our final results outperformed
 the original ones and achieved SOTA.
 
-[The framework we adopted in this work. It contains 4 parts: 1. Question Parsing; 2. Scene Graph Encoding; 3. Graph Reasoning; 4. Answering. We used a Graph2Seq structure for the Question Parsing module.] (https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/graphVQA_framework.png)
+[The framework we adopted in this work. It contains 4 parts: 1. Question Parsing; 2. Scene Graph Encoding; 3. Graph Reasoning; 4. Answering. We used a Graph2Seq structure for the Question Parsing module.](https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/graphVQA_framework.png)
 
-[The Graph2Seq sturcture we used] (https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/g2s.JPG)
+[The Graph2Seq sturcture we used](https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/g2s.JPG)
 
 * ```gqa_dataset_entry.py```: 
 	1. Added graph construction and new qa vocab construction (under class ```GQATorchDataset```: ```def _get_features``` and ```def build_question_graph_edges_vocab```)
