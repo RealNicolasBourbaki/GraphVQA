@@ -1,10 +1,9 @@
 # Based on [GraphVQA](https://github.com/codexxxl/GraphVQA)
 
 
-This is a report for seminar Advanced Machine
-Learning at University of Stuttgart. We aim
+We aim
 at GraphVQA task and adopted the original
-GraphVQA framework. Based on which we
+[GraphVQA framework](https://github.com/codexxxl/GraphVQA). Based on which we
 substituted the Seq2Seq module with a GNN
 based module to parse questions in this task.
 We further experimented our updated system
