@@ -1,4 +1,4 @@
-# Based on [GraphVQA](https://github.com/codexxxl/GraphVQA)
+# A whole GNN based framework for [GraphVQA](https://github.com/codexxxl/GraphVQA)
 
 
 We aim
