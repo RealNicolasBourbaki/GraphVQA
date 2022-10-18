@@ -14,6 +14,13 @@ or using positional features and bidirectional
 edges in GNN. Our final results outperformed
 the original ones and achieved SOTA.
 
+## The Task (GraphVQA): 
+In general: We build a model, that can answer questions about images.
+
+Input: 1. Graph representations (Scene Graphs) instead of raw images; 2. Questions based on the images.
+
+Output: The answers to the questions.
+
 ![The framework we adopted in this work. It contains 4 parts: 1. Question Parsing; 2. Scene Graph Encoding; 3. Graph Reasoning; 4. Answering. We used a Graph2Seq structure for the Question Parsing module.](https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/graphVQA_framework.png)
 
 ![The Graph2Seq sturcture we used](https://github.com/RealNicolasBourbaki/GraphVQA/blob/master/pics/g2s.JPG)
