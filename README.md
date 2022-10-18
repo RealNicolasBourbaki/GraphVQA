@@ -13,7 +13,7 @@ graphs and AMR graphs), using pretrained
 model BERT for better node representations,
 or using positional features and bidirectional
 edges in GNN. Our final results outperformed
-the original ones.
+the original ones and achieved SOTA.
 
 
 * ```gqa_dataset_entry.py```: 
